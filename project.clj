@@ -3,7 +3,9 @@
   :url "http://example.com/FIXME"
   :license {:name "The MIT License"
             :url ""}
-  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/tools.cli "0.3.1"]
+                 [clj-time "0.6.0"]]
   :main ^:skip-aot mpub.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
